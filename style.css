@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    color: #436668;
+}
+
+.cont {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c4e4e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.card {
+    width: 600px;
+    height: 300px;
+    border-radius: 11px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.left {
+    width: 280px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left input {
+    background-color: #f2f8fb;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #2ebeaa;
+}
+
+.left p {
+    margin-bottom: 5px;
+}
+
+#bill,
+#people {
+    font-size: 24px;
+}
+
+.grids {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grids button,
+#custom {
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#custom {
+    font-size: 11px;
+    padding: 0 9px;
+    font-weight: 700;
+}
+
+.grids button {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #00474b;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.grids button:hover {
+    background-color: #9fe7df;
+    color: #00474b;
+}
+
+#bill,
+#people {
+    height: 30px;
+    width: 100%;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+
+.right {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00474b;
+    border-radius: 11px;
+    padding: 20px;
+    color: #599196;
+}
+
+.r2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.total-p,
+.tip-p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ebeaa;
+}
+
+.highlight {
+    font-weight: 700;
+    color: white;
+}
+
+.reset {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #9fe7df;
+    font-weight: 700;
+    color: #00474b;
+    border: none;
+}

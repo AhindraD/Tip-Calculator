@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- displays site properly based on user's device -->
+  <title>Tip calculator app</title>
+
+</head>
+
+<body>
+  <div class="cont">
+    <p>SPLI</p>
+    <p>TTER</p>
+    <div class="card">
+      <div class="left">
+        <div class="r1">
+          <p>Bill</p>
+          <input type="number" name="" id="bill">
+        </div>
+
+        <div class="r1">
+          <p class="st">Select Tip %</p>
+          <div class="grids">
+            <button onclick="calculate(5)">5%</button>
+            <button onclick="calculate(10)">10%</button>
+            <button onclick="calculate(15)">15%</button>
+            <button onclick="calculate(25)">25%</button>
+            <button onclick="calculate(50)">50%</button>
+            <input type="number" name="" id="custom" placeholder="CUSTOM">
+          </div>
+        </div>
+
+        <div class="r1">
+          <p class="nop">Number of People</p>
+          <input type="number" name="" id="people">
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="r2">
+          <section class="c1">
+            <p class="highlight">Tip Amount</p>
+            <p>/ person</p>
+          </section>
+          <section class="c2">
+            <p class="tip-p">$0.00</p>
+          </section>
+        </div>
+        <div class="r2">
+          <section class="c1">
+            <p class="highlight">Total</p>
+            <p>/ person</p>
+          </section>
+          <section class="c2">
+            <p class="total-p">$0.00</p>
+          </section>
+        </div>
+        <div class="r2">
+          <button class="reset" onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+  <script src="script.js"></script>
+</body>
+
+</html>
